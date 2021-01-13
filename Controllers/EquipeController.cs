@@ -33,7 +33,7 @@ namespace Eplayers.Controllers
             equipeModel.Create(NovaEquipe);
             ViewBag.Equipes = equipeModel.ReadAll();
 
-            return LocalRedirect("~/Equipe");
+            return LocalRedirect("~/Equipe/Listar");
         }
     }
 }

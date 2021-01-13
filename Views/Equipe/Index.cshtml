@@ -3,7 +3,7 @@
     ViewData["Title"] = "Equipes";
 }
 
-<form method = "POST" action='@Url.action(Cadastrar)"'>
+<form method = "POST" action='@Url.Action("Cadastrar")'>
     <label>ID</label>
     <input type= "text" name= "IdEquipe" />
     
@@ -22,10 +22,10 @@
         <th>Imagem</th>
     </thead>
     <tbody>
-        @foreach(Equipe equipe in viewbag.Equipes)
+        @foreach(Equipe equipe in ViewBag.Equipes)
         {
             <tr>
-                <td>@equipe.IdEquipe</td>
+                <td>@equipe.IDEquipe</td>
                 <td>@equipe.Nome</td>
                 <td>@equipe.Imagem</td>
             </tr>
