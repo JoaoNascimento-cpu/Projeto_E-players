@@ -56,7 +56,9 @@ namespace Eplayers.Models
                 //alimentamos objeto equipe
                 equipe.IDEquipe = int.Parse(linha[0]);
                 equipe.Nome     = linha[1];
-                equipe.Imagem   = linha[3];
+                equipe.Imagem   = linha[2];
+
+                equipes.Add(equipe);
             }
 
             return equipes; 

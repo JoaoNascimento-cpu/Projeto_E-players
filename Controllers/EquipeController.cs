@@ -31,7 +31,7 @@ namespace Eplayers.Controllers
 
             //método create salva a NovaEquipe no CSV
             equipeModel.Create(NovaEquipe);
-            ViewBag.Equipes = equipeModel.ReadAll();
+            ViewBag.Equipe = equipeModel.ReadAll();
 
             return LocalRedirect("~/Equipe/Listar");
         }
