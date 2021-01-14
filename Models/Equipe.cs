@@ -18,7 +18,7 @@ namespace Eplayers.Models
         }
         public string Prepare(Equipe e)
         {
-            return $"{e.IDEquipe}; {e.Nome}; {e.Imagem}";
+            return $"{e.IDEquipe};{e.Nome};{e.Imagem}";
         }
 
         public void Create(Equipe e)
@@ -56,7 +56,7 @@ namespace Eplayers.Models
                 //alimentamos objeto equipe
                 equipe.IDEquipe = int.Parse(linha[0]);
                 equipe.Nome     = linha[1];
-                equipe.Imagem   = linha[2].Trim();
+                equipe.Imagem   = linha[2];
 
                 equipes.Add(equipe);
             }
