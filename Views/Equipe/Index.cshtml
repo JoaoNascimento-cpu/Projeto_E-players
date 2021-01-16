@@ -2,18 +2,25 @@
 @{
     ViewData["Title"] = "Equipes";
 }
+<div class="titulo_pagina">
+        <h1>cadastro de @ViewData["Title"]</h1>
+    </div>
 
-<form method = "POST" action='@Url.Action("Cadastrar")' enctype = "multipart/form-data">
-    <label>ID</label>
-    <input type= "text" name= "IdEquipe" />
-    
-    <label>Nome</label>
-    <input type= "text" name= "Nome" />
+<form class="Cadastro"  action= '@Url.Action("Cadastrar")' method= "post" enctype = "multipart/form-data">
+    <div class=campo>
+        <label>ID</label>
+        <input type= "text" name= "IdEquipe" />
+    </div>
+    <div class=campo>
+        <label>Nome</label>
+        <input type= "text" name= "Nome" />
+    </div>
+    <div class=campo>
+        <label>Imagem</label>
+        <input type = "file" name= "Imagem" />
+    </div>
 
-    <label>Imagem</label>
-    <input type = "file" name= "Imagem" />
-
-    <button type= "Submit">Cadastrar</button>
+    <button type= "gradient btn" type="Submit">Cadastrar</button>
 </form>
 
 <table class ="table table-striped table-responsive">
