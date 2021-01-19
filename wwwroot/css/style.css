@@ -38,14 +38,13 @@ ul{
     list-style-type: none;
 }
 
-.banner a
-{
-    margin: 0 20 px;
-}
-
 .erro{
     color: #fc1e8b;
-    }
+}
+
+.banner a{
+    margin: 0 20px ;  
+}
 
 .cabecalho{
     display: flex;
