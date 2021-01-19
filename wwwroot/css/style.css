@@ -38,6 +38,15 @@ ul{
     list-style-type: none;
 }
 
+.banner a
+{
+    margin: 0 20 px;
+}
+
+.erro{
+    color: #fc1e8b;
+    }
+
 .cabecalho{
     display: flex;
     justify-content: space-around;
@@ -517,6 +526,8 @@ table img{
    .mob_logo_sociais{
        padding: 15px;
    }
+
+   
    
   
 } /* Fim media mas 460px*\

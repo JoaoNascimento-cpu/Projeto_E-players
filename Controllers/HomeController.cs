@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Eplayers.Models;
+using Microsoft.AspNetCore.Http;
 
 namespace Eplayers.Controllers
 {
@@ -20,6 +21,7 @@ namespace Eplayers.Controllers
 
         public IActionResult Index()
         {
+            ViewBag.UserName = HttpContext.Session.GetString("_UserName");
             return View();
         }
 

@@ -35,3 +35,5 @@ C:\Users\jhony\Documents\Senai\ASP.Net\Trabalhos\Eplayers\obj\Debug\netcoreapp3.
 C:\Users\jhony\Documents\Senai\ASP.Net\Trabalhos\Eplayers\obj\Debug\netcoreapp3.1\staticwebassets\Eplayers.StaticWebAssets.xml
 C:\Users\jhony\Documents\Senai\ASP.Net\Trabalhos\Eplayers\obj\Debug\netcoreapp3.1\Eplayers.genruntimeconfig.cache
 C:\Users\jhony\Documents\Senai\ASP.Net\Trabalhos\Eplayers\obj\Debug\netcoreapp3.1\Eplayers.csproj.CopyComplete
+C:\Users\jhony\Documents\Senai\ASP.Net\Trabalhos\Eplayers\obj\Debug\netcoreapp3.1\Razor\Views\Jogador\index.cshtml.g.cs
+C:\Users\jhony\Documents\Senai\ASP.Net\Trabalhos\Eplayers\obj\Debug\netcoreapp3.1\Razor\Views\Login\index.cshtml.g.cs

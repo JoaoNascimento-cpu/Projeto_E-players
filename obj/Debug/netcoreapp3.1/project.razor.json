@@ -14392,8 +14392,18 @@
   "RootNamespace": "Eplayers",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\jhony\\Documents\\Senai\\ASP.Net\\Trabalhos\\Eplayers\\Views\\Jogador\\index.cshtml",
+      "TargetPath": "Views\\Jogador\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\jhony\\Documents\\Senai\\ASP.Net\\Trabalhos\\Eplayers\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jhony\\Documents\\Senai\\ASP.Net\\Trabalhos\\Eplayers\\Views\\Login\\index.cshtml",
+      "TargetPath": "Views\\Login\\index.cshtml",
       "FileKind": "mvc"
     },
     {

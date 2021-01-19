@@ -26,7 +26,7 @@ namespace Eplayers.Controllers
             //e é armazenamento dos dados enviados pelo usuário através do formulário
             // e é salvo no objeto NovaEquipe
             Equipe NovaEquipe = new Equipe();
-            NovaEquipe.IDEquipe =   Int32.Parse(form["IdEquipe"]);
+            NovaEquipe.IdEquipe =   Int32.Parse(form["IdEquipe"]);
             NovaEquipe.Nome     =   form["Nome"];
             NovaEquipe.Imagem   =   form["Imagem"];
 

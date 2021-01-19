@@ -8,7 +8,7 @@ namespace Eplayers.Models
     {
         //ID= Identificador
 
-        public int IDEquipe { get; set; }
+        public int IdEquipe { get; set; }
         public string Nome { get; set; }
         public string Imagem { get; set; }
         private const string PATH = "Database/Equipe.CSV";
@@ -18,7 +18,7 @@ namespace Eplayers.Models
         }
         public string Prepare(Equipe e)
         {
-            return $"{e.IDEquipe};{e.Nome};{e.Imagem}";
+            return $"{e.IdEquipe};{e.Nome};{e.Imagem}";
         }
 
         public void Create(Equipe e)
@@ -54,7 +54,7 @@ namespace Eplayers.Models
 
 
                 //alimentamos objeto equipe
-                equipe.IDEquipe = int.Parse(linha[0]);
+                equipe.IdEquipe = int.Parse(linha[0]);
                 equipe.Nome     = linha[1];
                 equipe.Imagem   = linha[2];
 
@@ -69,7 +69,7 @@ namespace Eplayers.Models
             List<string> linhas = ReadAllLinesCSV(PATH);
             
             //removemos a linha que tem o codigo a ser removido
-            linhas.RemoveAll(x => x.Split(";")[0] ==  e.IDEquipe.ToString());
+            linhas.RemoveAll(x => x.Split(";")[0] ==  e.IdEquipe.ToString());
 
             //adiciona a linha alterada no final do arquivo com o mesmo código
             linhas.Add( Prepare(e) );
